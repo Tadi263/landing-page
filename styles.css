@@ -5,6 +5,7 @@
     --main-text-white: #f9faf8;
     --sub-text-white: #e5e7eb;
     --main-text-black: #1f2937;
+    --section-gray: #6d747d;
 }
 
 * {
@@ -28,9 +29,10 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px 150px 10px 150px;
+    padding: 10px 200px;
     background-color: var(--section-blue);
     color: var(--main-text-white);
+    flex: 1 0 auto;
 }
 
 .logo{
@@ -50,5 +52,52 @@ ul{
 
 a{
     text-decoration: none;
+}
 
+.first-section{
+    background-color: var(--section-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.hero{
+    display: flex;
+    gap: 100px;
+    flex: 1 0 auto;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.hero-header{
+color: var(--main-text-white);
+font-size: 48px;
+font-weight: 900;
+}
+
+.hero-text, .placeholder{
+    color: var(--sub-text-white);
+    font-size: 18px;
+}
+
+.hero-button{
+    background-color: var(--item-blue);
+    color: var(--main-text-white);
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--section-gray);
 }
