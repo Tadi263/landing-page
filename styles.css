@@ -101,3 +101,47 @@ font-weight: 900;
     width: 50%;
     background-color: var(--section-gray);
 }
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.info-header{
+    box-sizing: border-box;
+    color: var(--main-text-black);
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
+    gap: 20px;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 300px;
+    height: 300px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: var(--item-blue) 2px solid;
+    border-radius: 15px;
+}
+
+.grid-text{
+    font-size: 18px;
+    color: var(--section-gray);
+    text-align: center;
+}
